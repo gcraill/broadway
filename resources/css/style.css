@@ -12,6 +12,8 @@ header {
 }
 header.splash-panel {
 	background-image: url('resources/images/the-flatiron-building.png');	
+	background-repeat: no-repeat;
+	background-size: cover;	
 }
 h1 {
 	font-size: 70px;
