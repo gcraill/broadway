@@ -2,38 +2,57 @@
 
 /*	Applies to ALL of the page 				*/
 body {
-	background-color: black;
-	font-family: verdana;
+	font-family: Helvetica;
 	text-align: center;
-	color: white;
 }
 
 /*	Styling for the <header> section		*/
 header {
+	color: white;
+}
+header.splash-panel {
+	background-image: url('resources/images/the-flatiron-building.png');	
 }
 h1 {
-	font-size: 50px;
+	font-size: 70px;
+	font-weight: bold;
+	
 }
-h2 {
-	font-size: 42px;
-	font-weight: 300;
+header nav li {
+	font-size: 18px;
 }
 
 /*	Styling for the <article>s only			*/
 article {
 }
-article a {
-	color: aquamarine;
-	font-size: 16px;
+
+/*	Styling for <h2> - The main header line in the content section		*/
+h2 {
+	font-size: 32px;
+	font-weight: bold;
+}
+/*	Styling for <h3> - The sub header lines/titles in content & footer	*/
+h3 {
+	font-size: 23px;
+	font-weight: bold;
+}
+/*	Styling for <h4> - The main header line in the footer section		*/
+h3.footer-leader {
+	color: white;
+	background-image: url('resources/images/the-flatiron-building.png');
 }
 article p {
-	color: gray;
-	font-size: 21px;
+	font-size: 14px;
 }
 
 /* 	As we have text-align: center for the <body> element/tag we need to */
 /*	override that with a class for the <footer> element. 				*/
-.footer {
-	color: gray;
-	text-align: right;
+footer {
+	color: white;
+	background-color: dimgray;
+	text-align: left;
+	font-size: 11px;
+}
+footer.a {
+	
 }
