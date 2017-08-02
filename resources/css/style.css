@@ -19,21 +19,13 @@ h1 {
 	margin-top:0px;
 }
 header.splash-panel {
-<<<<<<< HEAD
 	background-image: url('../images/the-flatiron-building.png');	
-=======
-	background-image: url('./../resources/images/the-flatiron-building.PNG');	
->>>>>>> 27e600d266c61975a8588a8200d2f072ffd0cecc
 	background-repeat: no-repeat;
 	background-size: 100% 100%;	
 	color: white;
 }
 header.splash-bar {
-<<<<<<< HEAD
 	background-image: url('../images/the-flatiron-building.png');	
-=======
-	background-image: url('./resources/images/the-flatiron-building.PNG');	
->>>>>>> 27e600d266c61975a8588a8200d2f072ffd0cecc
 	background-repeat: no-repeat;
 	background-size: 100%;	
 	color: white;
