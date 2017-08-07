@@ -82,6 +82,7 @@ footer .footer-bar {
 	background-color: dimgray;
 	text-align: left;
 	font-size: 11px;
+	height: 100%;
 }
 .navlink {
 	color: white;
